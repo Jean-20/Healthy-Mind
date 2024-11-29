@@ -1,10 +1,8 @@
 import { useState } from "react";
 
 const Questions = () => {
-    // Estado para rastrear qué acordeón está abierto
     const [openIndex, setOpenIndex] = useState(null);
 
-    // Alternar la apertura/cierre de un acordeón
     const toggleAccordion = (index) => {
         setOpenIndex(openIndex === index ? null : index);
     };
@@ -15,7 +13,6 @@ const Questions = () => {
             className="py-16 bg-[#F5E9E2] mt-20"
         >
             <div className="container mx-auto flex flex-wrap items-center">
-                {/* Contenido del texto */}
                 <div className="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
                     <div className="text-center mb-8">
                         <h1 className="text-3xl font-bold text-red-500">
@@ -54,7 +51,6 @@ const Questions = () => {
                     </div>
                 </div>
 
-                {/* Imagen */}
                 <div className="w-full lg:w-1/2 px-4 flex justify-center">
                     <img
                         src="https://www.institutohes.com/wp-content/uploads/estudiar-psicologia-clinica.jpg"
@@ -67,7 +63,6 @@ const Questions = () => {
     );
 };
 
-// Datos del acordeón
 const accordionData = [
     {
         question: "¿Qué tipo de información sobre salud mental puedo encontrar en la plataforma?",

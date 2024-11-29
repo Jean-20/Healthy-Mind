@@ -52,7 +52,6 @@ const ContactUs = () => {
           >
             <option selected disabled value="">Elige...</option>
             <option>Lima</option>
-            {/* Agregar más opciones  */}
           </select>
         </div>
         <div className="col-span-2">

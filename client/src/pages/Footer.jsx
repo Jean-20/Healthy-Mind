@@ -74,9 +74,11 @@ const Footer = () => {
           <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
 
             <div>
-              <h6 className="mb-4  uppercase text-white font-bold">D'Peñas</h6>
+              <h6 className="mb-4  uppercase text-white font-bold">Healthy Mind</h6>
               <p className='text-white'>
-                Reserva tu mesa fácilmente y disfruta de los sabores más frescos y auténticos de nuestra cocina peruana. Con nuestro sistema de reservas en línea, asegurar tu lugar nunca fue tan sencillo. Ven y vive una experiencia gastronómica única, con un servicio de calidad y un ambiente acogedor para disfrutar en familia o con amigos.              </p>
+                Healthy Mind es una plataforma web enfocada en la promoción del bienestar mental y la salud psicológica.
+                La plataforma incluye herramientas como un sistema de geolocalización para encontrar sedes cercanas y una interfaz amigable y accesible. Healthy Mind busca ser un referente en apoyo psicológico, especialmente en momentos de crisis, ofreciendo un espacio seguro y confiable para todos.
+              </p>
             </div>
 
             <div className="text-center md:text-center md:col-start-2">
@@ -107,7 +109,7 @@ const Footer = () => {
               <h6 className="mb-4 font-bold text-white uppercase">Contacto</h6>
               <div className="space-y-2">
                 <p>Lima, Perú</p>
-                <p>D'Peñas@gmail.com</p>
+                <p>Healthy-Mind@gmail.com</p>
                 <p>+51 01 234 5678</p>
                 <p>+51 01 234 5679</p>
               </div>

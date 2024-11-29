@@ -17,7 +17,6 @@ const Header = () => {
       className="fixed top-0 left-0 w-full shadow-lg flex items-center justify-between px-8 py-4 z-50"
       style={{ backgroundColor: "#FCF0E8" }}
     >
-      {/* Logo y texto */}
       <div className="flex items-center space-x-4">
         <img
           src="/img/hmLoguito.png"
@@ -34,7 +33,6 @@ const Header = () => {
         </h1>
       </div>
 
-      {/* Menú de navegación alineado a la derecha */}
       <nav className="nav font-bold text-lg text-black">
         <ul className="flex items-center justify-end space-x-8">
           <li className="relative group">
