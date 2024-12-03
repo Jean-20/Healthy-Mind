@@ -3,9 +3,11 @@ import React from "react";
 const SectionTwo = () => {
     return (
         <div className="py-10 bg-indigo-500">
-            <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
-                <div className="mt-8 md:mt-0 md:mr-6 text-white">
-                    <h1 className="text-4xl md:text-5xl font-bold mb-4">¡Cuida tu salud mental!</h1>
+            <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
+                <div className="mt-8 md:mt-0 md:mr-6 text-white text-center md:text-left">
+                    <h1 className="text-3xl md:text-5xl font-bold mb-4">
+                        ¡Cuida tu salud mental!
+                    </h1>
                     <p className="text-lg md:text-xl mb-4">
                         Aprende sobre cómo cuidar tu bienestar emocional y mental con nuestros recursos confiables.
                     </p>
@@ -20,7 +22,7 @@ const SectionTwo = () => {
                     </a>
                 </div>
 
-                <div className="flex flex-col items-center">
+                <div className="flex flex-col items-center mt-6 md:mt-0">
                     <img
                         src="https://metodopiecito.com/wp-content/uploads/2023/10/LA-IMPORTANCIA-DE-LA-RELACION-ENTRE-SALUD-MENTAL-Y-SALUD-FISICA.webp"
                         alt="Salud mental"

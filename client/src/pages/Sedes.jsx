@@ -314,10 +314,17 @@ const Card = ({ image, title, phone, address, modalId, toggleModal }) => (
         onClick={() => toggleModal(modalId)}
     >
         <img className="w-full h-48 object-cover rounded-md" src={image} alt={title} />
-        <div className="mt-4">
+        <div className="mt-4 text-center">
             <h2 className="text-lg font-semibold">{title}</h2>
-            <p className="text-sm text-gray-500">Teléfono: {phone}</p>
-            <p className="text-sm text-gray-500">Dirección: {address}</p>
+            <br />
+            <p className="text-sm text-black font-bold">Teléfono:</p>
+
+            <p className="text-sm text-gray-500">{phone}</p>
+            <br />
+            <p className="text-sm text-black font-bold">Dirección:</p>
+            <p className="text-sm text-gray-500">{address}</p>
+            <br />
+            <p className="text-sm text-gray-500 text-center">(presioname)</p>
         </div>
     </div>
 );

@@ -8,10 +8,12 @@ const SectionTwo = () => {
     const closeModal = () => setIsModalOpen(false);
 
     return (
-        <div className="py-10  bg-red-500 mt-20">
-            <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
-                <div className="mt-8 md:mt-0 md:mr-6 text-white">
-                    <h1 className="text-4xl md:text-5xl font-bold mb-4">¡Bienvenido a Healthy Mind!</h1>
+        <div className="py-10 bg-red-500 mt-20">
+            <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
+                <div className="mt-8 md:mt-0 md:mr-6 text-white text-center md:text-left">
+                    <h1 className="text-3xl md:text-5xl font-bold mb-4">
+                        ¡Bienvenido a Healthy Mind!
+                    </h1>
                     <p className="text-lg md:text-xl mb-4">
                         Descubre cómo podemos ayudarte a mejorar tu bienestar
                     </p>
@@ -23,7 +25,7 @@ const SectionTwo = () => {
                     </button>
                 </div>
 
-                <div className="flex flex-col items-center">
+                <div className="flex flex-col items-center mt-6 md:mt-0">
                     <img
                         src="https://wp.uaslp.mx/sinergia/wp-content/uploads/sites/4/2023/10/Salud-mental.jpg"
                         alt="Ceviche peruano"
@@ -32,7 +34,6 @@ const SectionTwo = () => {
                 </div>
             </div>
 
-            {/* Modal que contiene el video de YouTube */}
             {isModalOpen && (
                 <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
                     <div className="bg-white rounded-lg p-8 w-full max-w-4xl relative">
@@ -45,8 +46,8 @@ const SectionTwo = () => {
 
                         <div className="flex justify-center">
                             <iframe
-                                width="800"
-                                height="450"
+                                width="100%"
+                                height="auto"
                                 src="https://www.youtube.com/embed/3p-5Qe0rDzk"
                                 title="Video YouTube"
                                 frameBorder="0"
