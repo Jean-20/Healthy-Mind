@@ -47,7 +47,7 @@ const SectionTwo = () => {
                         <div className="flex justify-center">
                             <iframe
                                 width="100%"
-                                height="auto"
+                                height="500px"
                                 src="https://www.youtube.com/embed/3p-5Qe0rDzk"
                                 title="Video YouTube"
                                 frameBorder="0"
